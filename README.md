@@ -43,7 +43,7 @@ The system uses:
 | `processed/` | Cleaned & engineered Parquet files (Mon–Thu & Friday split) |
 | `models/` | Saved SSL Tri-Training models & calibrators |
 | `notebooks/` | Experiments, ablation studies, AITL results |
-| `preprocess_phoenix.py` | Complete preprocessing pipeline (Phoenix Engine) |
+| `preprocess_.py` | Complete preprocessing pipeline ( Engine) |
 | `tri_training_engine.py` | SSL Tri-Training implementation |
 | `run_ssl_training.ipynb` | Main experiment notebook |
 | `README.md` | Documentation (this file) |
@@ -66,7 +66,7 @@ The system uses:
 
 # 🧪 **Methodology**
 
-## **1. Phoenix Preprocessing Engine**
+## **1.  Preprocessing Engine**
 A robust, leakage-proof transformer that:
 
 ### ✔ Cleans + standardizes raw CICIDS2017  
@@ -133,4 +133,4 @@ Produces a **learning curve** that shows how SOC effectiveness compounds over ti
 
 ## **1. Run Preprocessing**
 ```bash
-python preprocess_phoenix.py
+python preprocess_.py
