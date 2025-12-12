@@ -118,7 +118,7 @@ Produces a **learning curve** that shows how SOC effectiveness compounds over ti
 
 ---
 
-# 📊 **Results Summary (Example)**
+# 📊 **Results Summary**
 
 | Metric | Value |
 |--------|--------|
