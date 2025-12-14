@@ -1,0 +1,35 @@
+[3] Running Tri-Training on Hybrid Data...
+[Init] Training 3 base models on Labeled Seed...
+--- Iteration 1/5 ---
+  Added 3000 pseudo-labels. Remaining Pool: 1488193
+--- Iteration 2/5 ---
+  Added 3000 pseudo-labels. Remaining Pool: 1487147
+--- Iteration 3/5 ---
+  Added 3000 pseudo-labels. Remaining Pool: 1486071
+--- Iteration 4/5 ---
+  Added 3000 pseudo-labels. Remaining Pool: 1485005
+--- Iteration 5/5 ---
+  Added 3000 pseudo-labels. Remaining Pool: 1483879
+
+[4] Evaluating on Hidden Friday Test Set...
+  Safety Threshold: 0.384259
+
+================================================================================
+FINAL RESULTS (HYBRID APPROACH)
+================================================================================
+Safety Threshold Used: 0.384259
+--------------------------------------------------------------------------------
+Metric                    | Score      | Impact on SOC                 
+--------------------------------------------------------------------------------
+Recall (Attack)           | 99.81%     | Catching Attacks (Target >99%)
+Precision                 | 99.83%     | Reducing False Alarms
+F1-Score                  | 0.9982     | Overall Model Quality
+ROC-AUC                   | 1.0000     | Threshold Independence
+--------------------------------------------------------------------------------
+False Negative Rate       | 0.19%     | Missed Attacks (Critical Risk)
+False Positive Rate       | 0.12%     | Alert Credibility
+--------------------------------------------------------------------------------
+Auto-Close Rate           | 58.92%     | Automation Benefit
+Analyst Workload          | 41.08%     | Alert Fatigue Ratio (Remaining)
+--------------------------------------------------------------------------------
+Confusion Matrix:   TN=351763 | FP=411 | FN=460 | TP=245125
